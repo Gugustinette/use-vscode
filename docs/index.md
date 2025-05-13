@@ -4,15 +4,14 @@ layout: home
 
 hero:
   name: "Use VS Code"
-  text: "Use VS Code."
-  tagline: My great project tagline
+  tagline: Using VS Code the right way
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Getting Started
+      link: /guide/introduction/getting-started
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: What is Use VS Code?
+      link: /guide/introduction/what-is-use-vscode
 
 features:
   - title: Feature A
@@ -22,4 +21,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
