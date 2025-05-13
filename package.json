@@ -1,0 +1,18 @@
+{
+	"name": "use-vscode",
+	"version": "0.0.1",
+	"description": "Use VS Code.",
+	"scripts": {
+		"docs:dev": "vitepress dev docs",
+		"docs:build": "vitepress build docs",
+		"docs:preview": "vitepress preview docs",
+		"format": "biome format --write",
+		"lint": "biome lint --write"
+	},
+	"author": "Augustin Mercier <gugustinette@proton.me>",
+	"license": "MIT",
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"vitepress": "^1.6.3"
+	}
+}
