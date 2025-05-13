@@ -4,7 +4,10 @@ layout: home
 
 hero:
   name: "Use VS Code"
-  tagline: Using VS Code the right way
+  tagline: Use Visual Studio Code
+  image:
+    src: /vscode.svg
+    alt: Visual Studio Code Logo
   actions:
     - theme: brand
       text: Getting Started
