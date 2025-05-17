@@ -2,7 +2,9 @@
 
 ## Plain NodeJS project
 
-Here is how to set up a simple Node.js project with a `launch.json` file for debugging.
+Here is how to set up a simple Node.js project for debugging with VSCode.
+
+### `launch.json`
 
 ```json
 {
