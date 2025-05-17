@@ -22,9 +22,7 @@ Here is how to set up a simple Node.js project for debugging with VSCode.
 
 ## NodeJS with TypeScript
 
-This example using [tsdown](https://tsdown.dev/) to compile the TypeScript code to JavaScript.
-
-The launch configuration is set to run the `build` task before starting the application, which compiles the TypeScript code to JavaScript. Then the compiled JavaScript code is executed.
+The launch configuration is set to run the `build` task before starting the application, which uses [tsdown](https://tsdown.dev/) to compiles the TypeScript code to JavaScript. Then the compiled JavaScript code is executed.
 
 ::: warning
 In order to make debugging work, you need your bundler to generate source maps. In this example, we are using such configuration for tsdown:
