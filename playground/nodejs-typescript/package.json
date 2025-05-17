@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-typescript",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsdown",
+    "run": ""
+  },
+  "devDependencies": {
+    "tsdown": "^0.11.11"
+  }
+}

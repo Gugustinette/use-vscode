@@ -4,3 +4,7 @@ docs/.vitepress/dist
 
 # Node
 node_modules
+
+# Playground
+playground/**/node_modules
+playground/**/dist
