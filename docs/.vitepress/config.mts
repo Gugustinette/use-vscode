@@ -14,7 +14,6 @@ export default defineConfig({
 		sidebar: [
 			{
 				text: "Introduction",
-				collapsed: true,
 				items: [
 					{
 						text: "What is Use VS Code ?",
@@ -28,7 +27,7 @@ export default defineConfig({
 			},
 			{
 				text: "Languages",
-				collapsed: true,
+				collapsed: false,
 				items: [
 					{
 						text: "Node.js",
