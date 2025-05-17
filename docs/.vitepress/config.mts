@@ -4,6 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
 	title: "Use VS Code",
 	description: "Use VS Code.",
+	base: "/use-vscode/",
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
